@@ -83,10 +83,6 @@ $ mvn clean  test -Dtest=IntegrationTest
    - testRestClientWithSTSInvalidZipCode : We enable schema validation for the SOAP message, and this testcase intentionally sends a request which has invalid zipcode per the XSD and expects a "cvc-pattern-valid" error
   
 
-Access OpenApi doc
-------------------
-You can access OpenApi doc of the Camel REST DSL endpoint from
-http://localhost:8080/bridge/camelcxf/openapi/swagger.json
 
 
 

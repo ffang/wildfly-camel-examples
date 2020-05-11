@@ -24,7 +24,7 @@ http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd         http
             <xmljson id="xmljson"/>
         </dataFormats>
         
-        <restConfiguration component="servlet" host="localhost" port="8080" bindingMode="auto" apiContextPath="/openapi" contextPath="/camelcxf">
+        <restConfiguration component="servlet" host="localhost" port="8080" bindingMode="auto" contextPath="/camelcxf">
             <apiProperty key="api.version" value="1.0.0"/>
             <apiProperty key="api.title" value="Camel Soap REST Bridge API"/>
         </restConfiguration>
