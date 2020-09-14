@@ -292,7 +292,7 @@
         </repository>
         <!--
             For stuff that is not yet released ...
-            mvn clean install -s configuration/settings.xml -Pfuse-mirror  
+            mvn clean install -s conf/settings.xml -Pfuse-mirror  
             http://10.0.144.111:8081/repository/maven-public/
         -->
     </repositories>
